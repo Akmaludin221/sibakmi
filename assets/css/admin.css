@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family:'Rubik', sans-serif;
+    overflow-y: scroll;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+#side_navbar{
+    position: fixed;
+    width: 20%;
+    background-color: #1f1f1f;
+    border-right: 5px #00bfa6 solid;
+}
+#side_navbar .container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+#side_navbar h2{
+    margin: 10px 20px;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f4f4f4;
+    margin-bottom: 20px;
+    border-left: 5px solid #00bf36;
+}
+#side_navbar a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #d9d9d9;
+    margin: 2px 0;
+    padding: 10px 0 10px 20px;
+    font-size: 17px;
+    transition: 0.2s ease;
+}
+#side_navbar a:hover{
+    background-color: #4f4f4f;
+    color: #fafafa;
+    transition: 0.2s ease;
+    outline: none;
+}
+#main_admin_section{
+    position: relative;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    width: 80%;
+    left: 20%;
+}
+#main_admin_section .container{
+    margin: 20px 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #acacac;
+    border-radius: 5px;
+    min-height: 90vh;
+}
+.modal{
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 50, 50, 0.7);
+    height: 100%;
+    width: 100%;
+}
+.modal .container{
+    min-height: 300px ;
+    min-width: 500px;
+    background-color: #f1f1f1;
+    padding: 30px 20px;
+}
+.modal form{
+    margin-top: 20px;
+}
+.modal .input_container{
+    font-size: 17px;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.modal .input_container input[type="text"]{
+    width: 70%;
+    outline: none;
+    padding: 5px 10px;
+}
+.modal .input_container select{
+    width: 50%;
+    margin-right: 20%;
+    padding: 5px 10px;
+    outline: none;
+}
+.modal .button_case{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.modal input[type="submit"],
+.modal a{
+    cursor: pointer;
+    background: #1f1f1f;
+    padding: 10px 20px;
+    color: #f0f0f0;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.modal .input_container div{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.modal textarea{
+    padding: 15px;
+    font-family:'Rubik', sans-serif;
+    font-size: 15px;
+}
+

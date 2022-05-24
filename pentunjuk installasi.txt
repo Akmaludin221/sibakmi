@@ -1,0 +1,19 @@
+Assalamualaikum.
+ini adalah aplikasi bank sampah (SIBAKMI).
+hal-hal yang perlu dipersiapkan:
+	- xampp
+	- mysql
+	- browser
+	- php versi 7
+
+cara instal:
+1. extrak file di xampp/htdocs;
+2. import database db_sibakmi.sql
+
+cara oprasi:
+1.untuk login admin menggunaka id= root, password=toor.
+2.untuk login member masukan id dan password yang sudah terdaftar dengan format id= id member dan password=(hhbbtt+idmember).
+  atau masukan id=m001 dan password=151220m001.
+
+untuk configurasi tambahan seperti username dan password mysql dapat dilakukan di file application/config/database.php
+dengan username dan password mysql anda.

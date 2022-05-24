@@ -1,0 +1,67 @@
+.timbang_sampah{
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.timbang_sampah h2{
+    font-size: 30px;
+    padding-left: 15px;
+    border-left: 5px solid #00bf36;
+}
+.form_timbang_sampah{
+    margin: 50px 40px;
+}
+.form_timbang_sampah form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.form_timbang_sampah .input_container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.form_timbang_sampah .input_container label{
+    flex: 30%;
+    font-size: 17px;
+}
+.form_timbang_sampah .input_container input,
+.form_timbang_sampah .input_container select,
+.form_timbang_sampah .input_container div{
+    flex: 70%;
+    font-size: 17px;
+}
+.form_timbang_sampah input[type="submit"]{
+    color: #f1f1f1;
+    background-color: #1f1f1f;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.form_timbang_sampah input[type="text"]:focus{
+    border-bottom:3px solid #00bfa6;
+}
+.form_timbang_sampah input[type="text"],
+.form_timbang_sampah input[type="number"]{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #acacac;
+    padding: 5px 10px;
+    background-color: inherit;
+}
+.form_timbang_sampah select{
+    padding: 5px 10px;
+    outline: none;
+}
+.form_timbang_sampah .input_container:nth-child(3) div{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+}
+

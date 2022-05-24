@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    font-family:'Rubik', sans-serif;
+}
+.main{
+    display: grid;
+    height: 100vh;
+    width: 70%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 40% 50%;
+    gap: 5px;
+}
+#log_out{
+    grid-row: 1/2;
+}
+#log_out .container{
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+}
+#log_out a{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #3d3d3d;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+#log_out a:hover{
+    transform: scale(1.05);
+}
+#information{
+    grid-area: 1/1/3/2;
+    display: flex;
+    align-items: center;
+}
+#information .container{
+    background: #3d3d3d;
+    color: #fff;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    word-spacing: 2px;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 5px solid #00bf36;
+    padding-bottom: 20px;
+}
+#information h1{
+    padding-left: 10px;
+}
+#information td{
+    padding: 5px;
+}
+#information td:first-child{
+    width: 25%;
+    font-weight: bold;
+    font-size: 20px;
+}
+#information td:last-child{
+    padding-left: 10px;
+    text-anchor: start;
+}
+#pool{
+    grid-column: 2/3;
+}
+#pool .container{
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+#pool .container div{
+    position: relative;
+    height: 200px;
+    width: 170px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pool .container p{
+    position: absolute;
+    font-weight: bold;
+    height: 61%;
+}
+#pool .container span{
+    font-size: 20px;
+}
+#pool .container h3{
+    position: absolute;
+    top: 61%;
+    height: 30%;
+    width: 100%;
+    padding-top: 10px ;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    color: #fff ;
+}
+#pool .berat_pool{
+    background-color: #40f774;;
+}
+#pool .berat_pool p{
+    font-size: 50px;
+    margin: 20%;
+    font-weight: bold;
+    color: #055a1d ;
+}
+#pool .berat_pool h3{
+    background-color: #0d862f;
+}
+#pool .money_pool{
+    background-color: #e6fa35;
+}
+#pool .money_pool h3{
+    background-color: #919e20;
+}
+#pool .money_pool p{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #5f680e ;
+    margin: 30%;
+}
+#riwayat{
+    grid-area: 3/1/4/3;
+}
+#riwayat .container{
+    background-color: #efefef;
+    border-radius: 10px;
+    padding: 20px;
+}
+#riwayat table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#riwayat table,
+#riwayat th,
+#riwayat td{
+    border: 2px solid #1f1f1f;
+    text-align: center;
+    padding: 5px 10px;
+}
+#riwayat td:first-child{
+    width: 15%;
+}
+#riwayat td:nth-child(2){
+    width: 15%;
+}
+#riwayat td:nth-child(3){
+    text-align: left;
+}
+#riwayat td:nth-child(4){
+    width: 10%;
+}

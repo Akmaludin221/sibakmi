@@ -1,0 +1,55 @@
+.list_member{
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.list_member h2{
+    font-size: 30px;
+    padding-left: 15px;
+    border-left: 5px solid #00bf36;
+}
+.list_member button,
+.list_member a{
+    color: #f1f1f1;
+    background-color: #1f1f1f;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.list_member a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.list_member table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.list_member table,
+.list_member th,
+.list_member td{
+    border: 2px solid #1f1f1f;
+}
+.list_member th,
+.list_member td{
+    padding: 15px 10px;
+}
+.list_member td:first-child{
+    width: 10%;
+}
+.list_member td:nth-child(2){
+    width: 25%;
+}
+.list_member td:nth-child(3){
+    width: 5%;
+}
+.list_member td:nth-child(4){
+    width: 35%;
+}
+.list_member td:last-child{
+    width: 25%;
+}

@@ -1,0 +1,51 @@
+.riwayat_penimbangan{
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.riwayat_penimbangan h2{
+    font-size: 30px;
+    padding-left: 15px;
+    border-left: 5px solid #00bf36;
+}
+.list_penimbangan{
+    margin: 20px;
+    width: 100%;
+}
+.list_penimbangan table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.list_penimbangan table,
+.list_penimbangan th,
+.list_penimbangan td{
+    border: 2px solid #1f1f1f;
+}
+.list_penimbangan td,
+.list_penimbangan th{
+    padding: 5px 10px;
+}
+.list_penimbangan td:first-child,
+.list_penimbangan td:last-child{
+    width: 15%;
+    text-align: center;
+}
+.list_penimbangan td:nth-child(2){
+    width: 30%;
+}
+.list_penimbangan td:nth-child(3){
+    width: 40%;
+    text-align: justify;
+}
+.list_penimbangan  button{
+    text-decoration: none;
+    color: #f1f1f1;
+    background-color: #1f1f1f;
+    width: fit-content;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

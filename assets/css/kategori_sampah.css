@@ -1,0 +1,56 @@
+.kategori_sampah{
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.kategori_sampah button,
+.kategori_sampah a{
+    text-decoration: none;
+    color: #f1f1f1;
+    text-decoration: none;
+    background-color: #1f1f1f;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.kategori_sampah button{
+    font-size: 15px;
+}
+.kategori_sampah a{
+    font-size: 12px;
+}
+.kategori_sampah h2{
+    font-size: 30px;
+    padding-left: 15px;
+    border-left: 5px solid #00bf36;
+}
+.kategori_sampah table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.kategori_sampah table,
+.kategori_sampah th,
+.kategori_sampah td{
+    border: 2px solid #1f1f1f;
+}
+.kategori_sampah th,
+.kategori_sampah td{
+    padding: 15px 10px;
+}
+.kategori_sampah td:first-child{
+    width: 15%;
+}
+.kategori_sampah td:nth-child(2){
+    width: 30%;
+}
+.kategori_sampah td:nth-child(3){
+    width: 14%;
+}
+.kategori_sampah td:nth-child(4){
+    width: 15%;
+}
